@@ -34,6 +34,14 @@ body{
     height: 100px;
     width: auto;
 }
+@media(max-width: 991px){
+    body{
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
 
 
 
@@ -127,7 +135,19 @@ body{
     padding: 15px;
 }
 
-
+@media(max-width: 991px){
+    .home  .doctor-img-bg{
+        display: block;
+        margin: 0 auto;
+        margin-top: 70px;
+        
+    }
+    .home .experiences-card{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 550px;
+    }
+}
 
 
 /* ---------------------home end------------------------- */
@@ -162,6 +182,8 @@ body{
 }
 .about .about-contents .card img{
     margin-top: 30px;
+    width: 200px;
+    height: auto;
     opacity: .8;
 }
 .about .about-contents .card:hover{
@@ -175,7 +197,23 @@ body{
     height: 450px;
     margin-top: 50px;
 }
-
+@media(max-width: 991px){
+    .about .about-contents .card{
+        width: 100%;
+    }
+    .about{
+        margin-top: 400px;
+    }
+    .about-descripion{
+        width: 100%;
+    }
+    .about .about-contents .card{
+        margin: 0 auto;
+    }
+    .about .about-contents  .move-right{
+        margin: 0 auto;
+    }
+}
 
 /* ---------------------about end------------------------- */
 
@@ -204,6 +242,9 @@ body{
     height: 100%;
     border-radius: 20px 20px 0px 0px;
     padding-bottom: 10px;
+}
+.blog .top-gap{
+    margin-top: 20px;
 }
 .blog .blog-cards .card:hover, .blog .blog-cards .card:focus, .blog .blog-cards .card.active{
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
@@ -260,6 +301,11 @@ body{
     color: rgb(255, 255, 255);
     transition: 0.3s ease;
 }
+@media(max-width: 991px){
+    .contact form{
+        width: 100%;
+    }
+}
 
 /* ---------------------contact page start------------------------- */
 
@@ -267,6 +313,9 @@ body{
 .contact  .contact-icons img{
     width: 50px;
     height: auto;
+}
+.contact-address{
+    margin-top: 50px;
 }
 
 /* ---------------------contact page start------------------------- */
