@@ -4,6 +4,12 @@ body{
     font-size: 14px;
     text-align: justify;
 }
+body p{
+    color: #2d2e31cb;
+}
+.nav-shadow{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
 .light-color{
     color: rgb(141, 131, 131);
 }
@@ -14,24 +20,29 @@ body{
     color: rgb(95, 90, 90);
 }
 .color-blue{
-    color: #136CFB;
+    /* color: #136CFB; */
+    color: #2196F3;
 }
-.navbar{
-    margin-top: 15px;
-}
+/* .navbar{
+    margin-top: 10px;
+} */
 .navbar button{
+    /* background-color: #2E3694; */
     background-color: #2E3694;
     color: white;
     border-radius: 17px;
     transition: 0.5s ease;
     padding: 8px 25px;
 }
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
 .navbar .navbar-nav  .nav-item .nav-link:hover, .navbar .navbar-nav  .nav-item .nav-link:focus, .navbar .navbar-nav  .nav-item .nav-link.active{
     color: black;
     font-weight: bold;
 }
 .navbar .navbar-brand img{
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 @media(max-width: 991px){
@@ -81,11 +92,14 @@ body{
 
 
 .home{
-    margin-top: 100px;
+    margin-top: 350px;
 }
 .home .sub-home-para {
     color: rgb(141, 131, 131);
     margin-top: 10px;
+}
+.home-card-color {
+    color: #2E3694;
 }
 .home h1{
     font-size: 45px;
@@ -263,20 +277,115 @@ body{
 
 
 
+
+
+/* ---------------------blog page start------------------------- */
+
+.blogs{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.blogs .blog-page-main-img  {
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+}
+.blogs .blogs-content-1{
+    margin-top: 80px;
+}
+.blogs .blogs-content-1 img{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.blogs .blogs-content-2 img{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.blogs .blogs-content-2{
+    margin-top: 80px;
+}
+.blogs-content-3{
+    margin-top: 150px;
+}
+.blog-content-4{
+    margin-top: 150px;
+}
+.blogs .blogs-content-1 .top-gap-space{
+    margin-top: 100px;
+}
+.blogs .blogs-content-2 .top-gap-space{
+    margin-top: 140px;
+}
+
+.blog-content-3 .card{
+    width: auto;
+    height: 100%;
+    border: 0;
+    box-shadow: rgba(10, 10, 20, 0.05) 0px 1px 0px, rgba(10, 10, 20, 0.1) 0px 0px 8px;    
+    border-radius: 27px;
+    padding: 15px;
+    background-color: #fffdfd;
+}
+.blog-cards{
+    margin-top: 50px;
+}
+.blog-content-3 .card img{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.blog-content-3 .card button{
+    border-radius: 20px;
+    background-color: #136CFB;
+    padding: 8px 25px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+
+}
+@media(max-width: 991px){
+    .blogs .blog-page-main-img{
+        width: auto;
+    }
+    .blogs-content-2 .top-gap-space p{
+        margin-top: -200px;
+    }
+    .card-top-gap{
+        margin-top: 20px;
+    }
+}
+
+
+
+/* ---------------------blog page end------------------------- */
+
+
+
+
+
+
+
 /* ---------------------contact start------------------------- */
 
 
 .contact{
     margin-top: 150px;
 }
-.contact img{
+.contact .contact-main-img img{
     width: 750px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 .contact .contact-contents{
-    margin-top: 80px;
+    margin-top: 20px;
+}
+.contact .contact-page-form form{
+    margin-top: 220px;
 }
 .contact form{
     margin-top: 80px;
@@ -301,9 +410,33 @@ body{
     color: rgb(255, 255, 255);
     transition: 0.3s ease;
 }
+.contact .contact-icons{
+    margin-top: 100px;
+}
+.contact .contact-icons img{
+    width: 50px;
+    height: auto;
+    margin-top: 15px;
+}
+.contact .contact-icons h6{
+    margin-top: 17px;
+    /* margin-left: 15px; */
+}
+/* .contact .contact-icons p{
+    margin-left: 60px;
+} */
+.contact .contact-map{
+    margin-top: 80px;
+}
 @media(max-width: 991px){
     .contact form{
         width: 100%;
+    }
+    .contact .contact-page-form form{
+        margin-top: 50px;
+    }
+    .contact  iframe{
+        width: auto;
     }
 }
 
@@ -319,6 +452,79 @@ body{
 }
 
 /* ---------------------contact page start------------------------- */
+
+
+
+
+
+
+
+
+/* ---------------------book-now start------------------------- */
+
+.book-now{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.book-now button{
+    background-color: #136CFB;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 0;
+    border: 0;
+    transition: 0.3s ease;
+}
+.book-now button:focus, .book-now button:hover, .book-now button.active{
+    background-color: transparent;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+}
+.book-now-buttons button{
+    margin-right: 20px;
+}
+.book-now-deatils .malappuram{
+    margin-top: 50px;
+}
+.book-now-deatils img{
+    width: 60px;
+    height: auto;
+}
+.book-now-deatils  a, .book-now-deatils p {
+    text-decoration: none;
+    margin-left: 80px;
+    color: rgb(19, 18, 18);
+}
+.location-head h5{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.phone-head h5{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.time-head h5{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.book-now-deatils  a:hover{
+    font-weight: bold;
+}
+.week-col .off{
+    background-color: #2E3694;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+
+/* ---------------------book-now end------------------------- */
+
+
+
+
+
 
 
 /* ---------------------contact end------------------------- */
@@ -345,6 +551,7 @@ body{
     padding: 19px;
     text-decoration: none;
     color: #d5dbe4;
+    transition: 0.5s ease;
 }
 .footer .quick-links a:hover{
     font-weight: bold;
