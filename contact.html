@@ -15,11 +15,13 @@
     <link rel="shortcut icon" href="image/logo.jpg">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-to">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="image/logo.jpg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -36,7 +38,9 @@
               <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
-            <button class="btn btn-sm text-white pop" type="submit">Book Now</button>
+          <div class="booking-btn">
+            <a href="book-now.html"><button class="btn btn-sm text-white pop" type="submit">Book Now</button></a>
+          </div>
         </div>
       </div>
     </nav>
@@ -163,10 +167,10 @@
       <div class="col-lg-4">
         <h6 class=" fw-bold text-center text-white">Quick links</h6>
         <div class="d-flex text-center quick-links">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Blog</a>
-          <a href="">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
         </div>
       </div>
 
