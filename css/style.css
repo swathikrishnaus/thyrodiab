@@ -269,29 +269,48 @@ body p{
 .about{
     margin-top: 150px;
 }
-.about h6{
-    color: #136CFB;
-}
+
 .about-descripion {
     width: 80%;
     text-align: justify;
     margin-top: 15px;
+    margin: 0 auto;
 }
 .about .about-contents{
     margin-top: 90px;
 }
 .about .about-contents .card{
     border: 0;
-    padding: 10px;
-    width: 500px;
+    padding: 15px;
     transition: 0.3s ease;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
+.specialisation{
+    width: 400px;
+    margin-top: 20px;
+    margin-left:280px;
+}
+.specialisation-contents .card{
+    margin: 0 auto;
+}
+.accreditation{
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 550px;
+}
+.about .ailments{
+    width: 100vh!important;
+    margin-left: 50px ;
+    margin-top: 50px!important;
+}
+.ailments img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
 .about .about-contents .card img{
-    margin-top: 30px;
-    width: 200px;
-    height: auto;
+    margin-top: 20px;
     opacity: .8;
 }
 .about .about-contents .card:hover{
@@ -315,6 +334,11 @@ body p{
         display: block;
         margin: 0 auto;
     }
+    .about .ailments .card{
+        width: auto !important;
+        margin-left: 0 auto ;
+    }
+  
     .about{
         margin-top: 400px;
         text-align: center;
@@ -327,9 +351,7 @@ body p{
         text-align: center;
         margin: 0 auto;
     }
-    .about .about-contents  .move-right{
-        margin: 0 auto;
-    }
+   
     .about .about-contents .about-doctor img{
         width: auto;
         height: auto;
@@ -363,6 +385,11 @@ body p{
     height: 100%;
     border-radius: 20px 20px 0px 0px;
     padding-bottom: 10px;
+    border-radius: 20px;
+}
+.blog .blog-cards .card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .blog .top-gap{
     margin-top: 20px;
